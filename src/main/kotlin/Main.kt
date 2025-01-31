@@ -1,16 +1,17 @@
 package org.example
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main() {
-    val name = "Kotlin"
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    println("Hello, " + name + "!")
+    val length: Long = 40868600000L
+    val age: Byte = 27
+    val partOfDay: Float = 0.075F
+    val seconds: Short = 6480
+    val partOfYear: Double = 2.0547945205479453E-4
+    val apogee: Int = 327000
 
-    for (i in 1..5) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        println("i = $i")
-    }
+    println(length)
+    println(age)
+    println(partOfDay)
+    println(seconds)
+    println(partOfYear)
+    print(apogee)
 }
