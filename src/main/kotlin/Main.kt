@@ -1,10 +1,11 @@
 package org.example
 
 fun main() {
-    val timeInSpace: Float = 6480F //или верни обратно инт и ок
-    val hoursPartOfTime = (timeInSpace / 3600) //целые часы
-    val minutesPartOfTime = (timeInSpace % 3600) / 60 //целые минуты
+    val timeInSpace: Short = 6480
+    val hoursPartOfTime = (timeInSpace / 3600)
+    val minutesPartOfTime = (timeInSpace % 3600) / 60
     val secondsTimeOfTime = (timeInSpace % 3600) % 60
+
     print(hoursPartOfTime)
     print(":")
     print(minutesPartOfTime)
