@@ -1,17 +1,16 @@
 package lesson_2
 
 fun main () {
- val mainEmployee = 50
- val mainSalary = 30000
+    val mainEmployee: Short = 50
+    val mainSalary: Short = 30000
+    val traineeEmployee: Short = 30
+    val traineeSalary: Short = 20000
+    val mainWorkersSalary = mainEmployee * mainSalary
+    val totalSalary = traineeEmployee * traineeSalary + mainWorkersSalary
+    val averageSalary = totalSalary / (mainEmployee + traineeEmployee)
 
- val traineeEmployee = 30
- val traineeSalary = 20000
+    println("Расходы по зарплате постоянных сотрудников, р = " + mainWorkersSalary)
+    println("Общие расходы по зарплате, р = " + totalSalary)
+    println("Средняя зарплата, р = " + averageSalary)
 
-    val mainWorkersSalary = mainEmployee*mainSalary
-    val totalSalary = traineeEmployee*traineeSalary+mainWorkersSalary
-    val averageSalary = totalSalary/(mainEmployee+traineeEmployee)
-
-    println(mainWorkersSalary)
-    println(totalSalary)
-    println(averageSalary)
 }
