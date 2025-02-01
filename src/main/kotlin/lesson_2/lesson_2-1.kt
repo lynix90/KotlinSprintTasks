@@ -1,3 +1,5 @@
+package lesson_2
+
 fun main() {
     val studentOneRating = 3.0
     val studentTwoRating = 4.0
